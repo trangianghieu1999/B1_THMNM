@@ -8,15 +8,15 @@ return (a-b);
 int main()
 {
 	int a, b;
-	char phepToan;
+	char phepToan2;
 	cout << "Nhap so nguyen 1: ";
 	cin >> a;
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 
-	cin >> phepToan;
-	if (phepToan == "-")
+	cin >> phepToan2;
+	if (phepToan2 == "-")
 	  cout << "\na - b = " << hieu(a,b) << "\n";
 	system("pause");
 	return 0;
