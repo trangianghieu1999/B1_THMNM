@@ -5,9 +5,6 @@ int hieu(int a, int b)
 return (a-b);
 };
 
-int tong(int a, int b){
-return (a+b);
-};
 int main()
 {
 	int a, b;
@@ -21,9 +18,6 @@ int main()
 	cin >> phepToan;
 	if (phepToan == "-")
 	  cout << "\na - b = " << hieu(a,b) << "\n";
-	cin >> phepToan1;
-	if (phepToan1 == "+")
-	  cout << "\na + b = " << tong(a,b) << "\n";
 	system("pause");
 	return 0;
 }
