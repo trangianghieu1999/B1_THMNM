@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
-int tong(int a, int b);
 int hieu(int a, int b)
 {
 return (a-b);
 };
 
+int tong(int a, int b){
+return (a+b);
+};
 int main()
 {
 	int a, b;
@@ -15,9 +17,13 @@ int main()
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
+
 	cin >> phepToan;
 	if (phepToan == "-")
 	  cout << "\na - b = " << hieu(a,b) << "\n";
+	cin >> phepToan1;
+	if (phepToan1 == "+")
+	  cout << "\na + b = " << tong(a,b) << "\n";
 	system("pause");
 	return 0;
 }
