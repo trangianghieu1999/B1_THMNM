@@ -13,8 +13,8 @@ int main()
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
-	cin >> phepToan;
-	if (phepToan == "+")
+	cin >> phepToan1;
+	if (phepToan1 == "+")
 	  cout << "\na + b = " << tong(a,b) << "\n";
 	system("pause");
 	return 0;
