@@ -23,6 +23,16 @@ int main()
 	//Tinh Tich
 	if(phepToan2 =="*")
 		cout <<"\a*b="<<tich(a,b)<<"\n";
+	//KiemtrasoChanle
+ 	int num;
+  
+   	cout<<"Nhập vào một số nguyên: ";
+  	 cin>>num;
+   	if ( num%2 == 0 )
+      	cout<<num<<" là số chẵn ";
+   	else
+     	 cout<<num<<" là số lẻ";
+   	cout<<"\n----------------------------\n";
 	system("pause");
 	return 0;
 }
