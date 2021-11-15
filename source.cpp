@@ -20,6 +20,7 @@ int main()
 	cin >> phepToan2;
 	if (phepToan2 == "-")
 	  cout << "\na - b = " << hieu(a,b) << "\n";
+	//Tinh Tich
 	if(phepToan2 =="*")
 		cout <<"\a*b="<<tich(a,b)<<"\n";
 	system("pause");
