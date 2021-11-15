@@ -4,10 +4,6 @@ int hieu(int a, int b)
 {
 return (a-b);
 };
-float Tich(int a,int b)
-{
-return (a*b);
-}
 int main()
 {
 	int a, b;
@@ -20,8 +16,6 @@ int main()
 	cin >> phepToan2;
 	if (phepToan2 == "-")
 	  cout << "\na - b = " << hieu(a,b) << "\n";
-	if(phepToan2 =="*")
-		cout <<"\a*b="<<tich(a,b)<<"\n";
 	system("pause");
 	return 0;
 }
